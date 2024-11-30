@@ -1,4 +1,4 @@
-package namastejava;
+package StringBuilder;
 
 public class StringBuilderEg {
 	public static void main(String[] args) {
