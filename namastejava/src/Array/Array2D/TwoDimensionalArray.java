@@ -9,8 +9,27 @@ public class TwoDimensionalArray {
 		int[] vars3[];          // 2D array
 		int[] vars4 [], space [][];  // a 2D AND a 3D array
 		
-		System.out.println(TwoD[0][1]);
+//		System.out.println(TwoD[0][1]);
 
+		
+		
+		int[][] numbers =new int[3][5];
+		
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 4; j++) {
+				numbers[i][j]= i*j;
+				
+			}
+		}
+		
+		for (int[] row : numbers) {
+			for (int value : row) {
+				System.out.print(value+ " ");
+			}
+			System.out.println();
+		}
+		
+		
 	}
 
 }
