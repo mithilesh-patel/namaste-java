@@ -12,5 +12,10 @@ public class ArrayToArrayList {
 		Collections.addAll(BirdsArrayList, birds);
 		
 		System.out.println("BirdsArrayList : " + BirdsArrayList);
+		
+		
+//		Sort the collection
+		Collections.sort(BirdsArrayList);
+		System.out.println("BirdsArrayList : " + BirdsArrayList);
 	}
 }
