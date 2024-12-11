@@ -13,5 +13,10 @@ public class ManipulateDateTime {
 //		Combining Date and Time
 		LocalDateTime dateTime1 = LocalDateTime.of(date, time);
 		System.out.println(dateTime1);
+		
+		LocalDateTime dateTime2 = dateTime1.plusDays(5);
+		System.out.println(dateTime2);
+		System.out.println(dateTime2.plusHours(12));
+		
 	}
 }
