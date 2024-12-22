@@ -10,5 +10,7 @@ public class MethodVarargs {
 
 	public static void main(String[] args) {
 		showLength(2, 23, 56);
+		System.out.println();
+		showLength(2, new int[] {34,536,78,78});
 	}
 }
