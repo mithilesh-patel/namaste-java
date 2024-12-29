@@ -3,7 +3,7 @@ package MethodEg.package1;
 import MethodEg.package2.class2;
 
 
-private class Ctest{
+class Ctest{
 	void methodinCtest() {
 		System.out.println("This is methodinCtest");
 	}
