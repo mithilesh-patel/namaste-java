@@ -11,7 +11,7 @@ public class overloadingVarargs {
 //	}
 	
 	static int multiply(int[] x) {
-	    int mul;
+	    int mul = 1;
 	    		
 		for (int i : x) {
 			mul  = mul * i;

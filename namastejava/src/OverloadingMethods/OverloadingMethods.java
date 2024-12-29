@@ -11,7 +11,7 @@ public class OverloadingMethods {
 		System.out.println("a multiplied by b is "+ a*b);	
 	}
 	
-	public int multiply(int a,int b, int c) {
+	static int multiply(int a,int b, int c) {
 		return a*b*c;		
 	}
 	
