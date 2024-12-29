@@ -5,12 +5,11 @@ public class Default {
 	int x;
 	{
 		x = 45; // if it is declared here then it becomes local variable
-//		System.out.println(x);
 		System.out.println("This is Instance initializer");
 	}
 	
-	Default(){
-		System.out.println("This is the default constructor");
+	Default(int x){
+		System.out.println("This is the Parameterized constructor: "+ x);
 	}
 	
 	void show() {
@@ -18,7 +17,7 @@ public class Default {
 	}
 	
 	public static void main(String[] args) {
-		Default d = new Default();
+		Default d = new Default(45);
 		d.show();
 		System.out.println(d.x);
 	}
