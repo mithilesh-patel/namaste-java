@@ -1,9 +1,10 @@
 package encapsulation;
 
+// To make a class immutable remove the setters in the class and make the members private
 public class immutableClass {
 	
-	String name;
-	int age;
+	private String name;
+	private int age;
 	
 	public immutableClass(String name, int age) {
 		super();
